@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+.app{
+  @apply font-poppins;
+}
+
+.top-line{
+  @apply w-full h-8 bg-linear-to-r from-main-1 to-main-2
+}
+.bottom-line{
+  @apply w-full h-8 sm:h-16 bg-linear-to-r from-main-1 to-main-2 mt-12 sm:mt-20
+}
+
+h1{
+  @apply font-black text-3xl sm:text-5xl text-center mb-4
+}
+
+.subtitle{
+  @apply text-black/60 text-[15px] sm:text-xl max-w-[400px] text-center mx-auto mb-12 sm:mb-20
+}
+
+.logo{
+  @apply font-medium text-xl sm:text-2xl
+}
+
+.button-full{
+  @apply rounded-4xl px-2 py-2 min-w-28 bg-black text-white flex justify-center cursor-pointer
+}
+
+.button-outline{
+  @apply rounded-4xl px-2 py-2 min-w-28 border-1 border-black cursor-pointer
+}
+
+body{
+  @apply bg-[#F5FFFC]
+}
+
+.input{
+  @apply bg-main-1 text-white/60 p-3 rounded-[10px] focus:outline-0 text-[14px] sm:text-[16px]
+}
+
+@theme inline {
+  --color-main-1: #1B4F81;
+  --color-main-2: #15B7C9;
+  --font-poppins: 'Poppins', 'sans-serif';
+}
