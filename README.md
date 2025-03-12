@@ -4,14 +4,13 @@
 
 ## Features:
 - **Google Authentication**: Implemented using NextAuth for easy and secure login.
-- **Post Management**: Users can create, edit, delete, and read posts about SaaS concepts.
+- **Post Management**: Users can create, edit and delete posts about SaaS concepts.
 - **Feed**: Discover new and innovative SaaS ideas shared by the community.
 
 ## Technologies Used:
 - **Frontend**: [Next.js](https://nextjs.org/) with React
 - **Authentication**: [NextAuth](https://next-auth.js.org/) with Google OAuth 2.0
 - **Database**: [MongoDB](https://www.mongodb.com/)
-- **Deployment**: [Vercel](https://vercel.com/)
 
 ## Setup Instructions:
 1. Clone the repository:
